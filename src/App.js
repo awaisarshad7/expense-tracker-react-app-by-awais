@@ -11,6 +11,7 @@ import './App.css';
 
 function App() {
   return (
+    
     <GlobalProvider>
      <Header />
      <div className="container">
@@ -20,6 +21,7 @@ function App() {
       <AddTransaction /> 
       </div>
     </GlobalProvider>
+   
   );
 }
 
